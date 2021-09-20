@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>003. Beli produk pasar uang menggunakan rekening nasabah BCA (belum login)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f2625dc1-0a56-44b6-a4c2-973aff8245f4</testCaseGuid>
+</TestCaseEntity>
