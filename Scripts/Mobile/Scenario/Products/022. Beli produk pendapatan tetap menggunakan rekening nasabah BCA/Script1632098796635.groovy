@@ -19,7 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 int isLogin = 1
 
-String action = 'Product Detail'
+String category = 'Fixed Income'
+
+String action = 'Buy'
 
 String pageSelection = 'Performance'
 
@@ -39,6 +41,7 @@ WebUI.callTestCase(findTestCase('Mobile/Page/Login/Login'), [
 WebUI.callTestCase(findTestCase('Mobile/Page/Product/Product'), [
 		('isLogin') : isLogin,
 		('action') : action,
+		('category') : category,
 		('pageSelection') : pageSelection,
 		('isBuy') : isBuy,
 		('gunakanKodePromo') : gunakanKodePromo,

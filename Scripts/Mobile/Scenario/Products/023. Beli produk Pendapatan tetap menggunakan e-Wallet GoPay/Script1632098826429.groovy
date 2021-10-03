@@ -19,7 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 int isLogin = 1
 
-String action = 'Product Detail'
+String category = 'Fixed Income'
+
+String action = 'Buy'
 
 String pageSelection = 'Performance'
 
@@ -40,6 +42,7 @@ WebUI.callTestCase(findTestCase('Mobile/Page/Login/Login'), [
 
 WebUI.callTestCase(findTestCase('Mobile/Page/Product/Product'), [
 		('isLogin') : isLogin,
+		('category') : category,
 		('action') : action,
 		('pageSelection') : pageSelection,
 		('isBuy') : isBuy,
@@ -47,4 +50,3 @@ WebUI.callTestCase(findTestCase('Mobile/Page/Product/Product'), [
 		('actionBeliReksadana') : actionBeliReksadana,
 		('metodePambayaran') : metodePambayaran,
 		('eWallet') : eWallet])
-
